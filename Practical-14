@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Practical-14 of WT" />
+    <title>Practical-14</title>
+  </head>
+  <body>
+   <div class="image-grid">
+      <img src="Practical-14(Extension).html/mascot.png" alt="mascot">
+      <img src="custom-graphic.svg" alt="Custom illustration">
+      <img src="3d-render.jpg" alt="Photorealistic 3D render">
+      <img src="ui-icon.png" alt="User interface icon">
+   </div>
+  </body>
+  </html>
+
+
+  <style>
+.image-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.image-grid img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}   
+  </style>
