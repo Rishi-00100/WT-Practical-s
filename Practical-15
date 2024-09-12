@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Practical-15 of WT" />
+    <title>Practical-15</title>
+  </head>
+  <body>
+  <div class="Main">
+    <button class="Button-1">Button-1</button>
+    <button class="Button-2">Button-2</button>
+    <button class="Button-3">Button-3</button>
+    <button class="Button-4">Button-4</button>
+    <button class="Button-5">Button-5</button>
+    <a href="#" class="link-button">Link Button</a>
+  </div>
+</body>
+</html>
+
+
+<style>
+button {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Various Button*/
+.Button-1{
+  background-color: gray;
+  color: #333;
+}
+
+.Button-2{
+  background-color: greenyellow;
+  color: white;
+}
+
+.Button-3{
+  background-color: black;
+  color: white;
+}
+
+.Button-4{
+  background-color: green;
+  color: #fff;
+}
+
+.Button-5{
+  background-color: lightcoral;
+  color: #fff;
+}
+
+.link-button {
+  text-decoration: none;
+  color: skyblue;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+}
+
+/* When Hover */
+button:hover {
+  background-color: #ccc;
+}
+
+/*When Click*/
+button:active {
+  transform: translatey(2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}   
+</style>
