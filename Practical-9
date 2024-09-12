@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Practical-9 of WT" />
+    <title>Practical-9</title>
+  </head>
+  <body>
+    <h1>Font Styling</h1>
+
+    <h2>Font Family</h2>
+    <p style="font-family: Arial, Helvetica;">
+      This text uses Arial as the primary font, with Helvetica as a fallback.
+    </p>
+    <p style="font-family: monospace, Courier;">
+      This text uses a monospace font (Courier) as the primary font.
+    </p>
+    <p style="font-family: cursive, Comic sans;">
+      This text uses a cursive font (Comic Sans) as the primary font.
+    </p>
+
+    <h2>Font Size</h2>
+    <p style="font-size: 24px">This text has a font size of 24px.</p>
+    <p style="font-size: 18px">This text has a font size of 18px.</p>
+
+    <h2>Font Style</h2>
+    <p style="font-style: italic">This text is displayed in italics.</p>
+    <p style="font-style: oblique">
+      This text is displayed in oblique (slanted) font.
+    </p>
+  </body>
+</html>
