@@ -1,0 +1,74 @@
+1. /!--COFFEE.htnl--/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-1 of WT">
+    <title>Practical-5(Extension)</title>
+</head>
+<body>
+  <h1>Coffee</h1>
+  <img width="400" height="379" src="Coffee.png">
+  <p>
+    Wikipedia says:
+
+    Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant.
+  </p>
+  <p>
+    Read more about coffee on: <a href="https://en.wikipedia.org/wiki/Coffee">Coffee</a>
+  </p>
+</body>
+
+(ADD THE COFFEE IMAGE)
+
+
+2. /!--COMPUTER.htnl--/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-1 of WT">
+    <title>Practical-5(Extention)</title>
+</head>
+<body>
+  <h1>Computer</h1>
+  <img width="400" height="379" src="Computer.png">
+    <p>
+      Wikipedia says:
+
+      A computer is a device that can be instructed to carry out arbitrary sequences of arithmetic or logical operations automatically.</p>
+    <p>
+      Read more about computer on: <a href= "https://en.wikipedia.org/wiki/Computer">COMPUTER</a>
+    </p>
+</body>
+
+(ADD THE COMPUTER IMAGE)
+
+
+3. <!--PHONE.html--/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-1 of WT">
+    <title>Practical-5(Extention)</title>
+</head>
+<body>
+  <h1>Computer</h1>
+  <img width="400" height="379" src="Computer.png">
+    <p>
+      Wikipedia says:
+
+      A computer is a device that can be instructed to carry out arbitrary sequences of arithmetic or logical operations automatically.</p>
+    <p>
+      Read more about computer on: <a href= "https://en.wikipedia.org/wiki/Computer">COMPUTER</a>
+    </p>
+</body>
+
+(ADD THE PHONE IMAGE)
