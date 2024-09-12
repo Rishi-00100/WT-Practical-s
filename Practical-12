@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Practical-12 of WT" />
+    <title>Practical-12</title>
+  </head>
+  <body>
+   <div class="Main-Column">
+      <div class="column-1"><h2>Column-1</h2></div>
+      <div class="column-2"><h2>Column-2</h2></div>
+      <div class="column-3"><h2>Column-3</h2></div>
+   </div>
+  </body>
+  </html>
+
+
+  <style>
+.column-1{
+   background-color: aqua;
+   float: left;
+   width: 31%;
+   height: 300px;
+   text-align:center;
+   border-style: solid;
+}
+
+.column-2{
+   background-color: coral;
+   float: left;
+   width: 31%;
+   height: 300px;
+   text-align:center;
+   border-style: solid;
+}
+
+.column-3{
+   background-color: cyan;
+   float: left;
+   width: 31%;
+   height: 300px;
+   text-align:center;
+   border-style: solid;
+}
+  </style>
