@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-8 of WT">
+    <title>Practical-8</title>
+</head>
+<body>
+   <p style="background-image: url('Practical-8\(Extension\).html/Background.png');"></p>
+      /!--ADD A IMAGE--/
+</body>
+</html>
+
+
+<style>
+ p{
+   width: 100%;
+   height: 670px;
+   background-repeat: no-repeat;/*To avoid the background image from repeating itself*/
+   background-attachment: fixed;/*to make sure the entire element is always covered*/
+   background-size: cover;/*If you want the background image to cover the entire element......OR......If you want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%*/
+ }
+</style>
