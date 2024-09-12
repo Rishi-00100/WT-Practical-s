@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Practical-16 of WT" />
+    <title>Practical-16</title>
+  </head>
+  <body>
+
+   <!--(TYPOGRAPHY) == Typography in HTML & CSS refers to the art and technique of arranging type (text) on a web page to make it legible, clear, and visually appealing to the reader. In the context of HTML and CSS, typography involves controlling the appearance and structure of text using various CSS properties and HTML elements.-->
+
+    <h1 class="Heading">Heading-1</h1>
+    <p class="Body">Whatever</p>
+    <h2 class="Section">Section-1</h2>
+    <p class="Body-2">Whatever-2</p>
+    <h3 class="Sub-Section">Sub-Section-1</h3>
+    <p class="Body-3">Whatever-3</p>
+    <span class="Emphasis">Important text</span>
+    <mark class="Highlight">Highlighted text</mark>
+
+    <pre class="Code-Block">
+      <code>HTML & CSS code goes here</code>
+    </pre>
+  </body>
+  </html>
