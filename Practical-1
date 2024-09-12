@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-1 of WT">
+    <title>Practical-1</title>
+</head>
+<body>
+  <!--All 6 Headings--> 
+   <h1>Heading-1</h1>
+   <h2>Heading-2</h2>
+   <h3>Heading-3</h3>
+   <h4>Heading-4</h4>
+   <h5>Heading-5</h5>
+   <h6>Heading-6</h6>
+
+  <!--Diff Formatting Styles-->
+   <li>Bold text: used to <b>bold</b> the text written between it..</li>
+   <li>Italic text: used to make text <i>italic</i>..</li>
+   <P>Subscript text: displays the content <sub>slightly below</sub> the
+      normal line..</li>
+   <li>Superscript text: displays the content <sup>slightly above</sup>
+      the normal line..</li>
+   <li>Underline text: used to denote any <u>imp text or line</u> by 
+      underlining it..</li>
+   <li>Strike: was used in HTML 4 to define strikethrough text..& is no
+      longer supported in HTML-5</li>
+
+  <!--Image-Tag-->
+   <img src="url" alt="alternative"><!--Here (src)== source of image,
+                                     (alt)== In case, if the image did not appered, an alternative msg will appear there....you can style your image either with in-line CSS or by giving it an Class or ID-->
+
+  <!--(Font-Styles)== They are diff styles in which you can write your
+                      texts...-->
+   <p style="font-family: Arial;">Hi</p>                               
+   <p style="font-family: Helvetica;">Hi</p>
+   <p style="font-family: sans-serif;">Hi</p>
+  <!--And Many More-->
+
+  <!--(Marquee-Tag)== element is used to insert a scrolling area of
+                      text. You can control what happens when the text reaches the edges of its content area using its attributes..-->
+  <!--For text-->                    
+   <marquee>This text will scroll from right to left</marquee>
+
+   <marquee direction="up">This text will scroll from bottom to top</marquee>
+                      
+   <marquee
+   direction="down"
+   width="250"
+   height="200"
+   behavior="alternate"
+   style="border:solid">
+   <marquee behavior="alternate">This text will bounce</marquee>
+   </marquee>
+
+  <!--For Image--> 
+   <marquee><img src="url" alt="alternative"></marquee>
+
+   <marquee direction="up"><img src="url" alt="alternative"></marquee>
+
+   <marquee
+   direction="down"
+   width="250"
+   height="200"
+   behavior="alternate"
+   style="border:solid">
+   <marquee behavior="alternate"><img src="url" alt="alternative"></marquee>
+   </marquee>
+   
+   <!--For Hyperlink--> 
+   <marquee><a href="https://www.youtube.com/">YouTube</a></marquee>
+
+   <marquee direction="up"><a href="https://www.youtube.com/">YouTube</a></marquee>
+
+   <marquee
+   direction="down"
+   width="250"
+   height="200"
+   behavior="alternate"
+   style="border:solid">
+   <marquee behavior="alternate"><a href="https://www.youtube.com/">YouTube</a></marquee>
+   </marquee>
+
+  <!--Other-tags-->
+   <br> <!--used for new line-->
+   <hr> <!--We use the <hr> tag to define thematic changes in the
+            content-->
+   <!--Example of (<hr>) Tag-->
+    <h1>The Main Languages of the Web</h1>
+    <p>HTML is the standard markup language for creating Web pages.</p>
+   <hr>
+    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+   <hr>
+    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values.</p> 
+
+   <pre><!--Text in a pre element is displayed in a fixed-width font, and
+            it preserves both spaces & line breaks..-->
+     ____________________________
+    &lt; I'm an expert in my field. &gt;
+     ----------------------------
+            \   ^__^
+              \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||          
+   </pre>
+
+   <p><!--Represents a paragraph. Paragraphs are usually represented in
+          visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.-->
+    Hi....How Are You??
+   </p>
+</body>
+</html>
