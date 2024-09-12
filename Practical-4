@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-4 of WT">
+    <title>Practical-4</title>
+  </head> 
+  <frameset cols="40%, 60%;">
+    <frame name="1" src="Practical-4(Extension).html/Practical-4(a).html">
+  <frameset rows="50%, 50%">
+    <frame name="2" src="Practical-4(Extension).html/Practical-4(b).html">
+    <frame name="3" src="Practical-4(Extension).html/Practical-4(c).html">
+  </frameset>
+  </frameset>     
+</html>
