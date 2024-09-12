@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-2 of WT">
+    <title>Practical-2</title>
+</head>
+<body>
+  <!--Creating an unordered list nested inside an
+      ordered list and applying the following;
+      1. Insert an image of Main item on top right corner of web-page
+      2. displaying heading as a marquee
+      3. use different font style and colors for different ordered list items
+      4. insert horizontol line after each ordered item..-->
+  <img src="url" alt="alternative">
+   <ol>
+    <marquee><li>Animals</li></marquee>
+     <ul>
+      <li>lion</li>
+      <li>lion</li>
+      <li>lion</li>
+     </ul>
+  </ol>
+  <hr>
+  <img src="url" alt="alternative">
+   <ol>
+    <marquee><li>Animals</li></marquee>
+     <ul>
+      <li>lion</li>
+      <li>lion</li>
+      <li>lion</li>
+     </ul>
+  </ol>
+  <hr>
+  <img src="url" alt="alternative">
+   <ol>
+    <marquee><li>Animals</li></marquee>
+     <ul>
+      <li>lion</li>
+      <li>lion</li>
+      <li>lion</li>
+     </ul>
+  </ol>
+ </div>    
+</body>
+</html>
