@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Practical-7 of WT">
+    <link rel="stylesheet" href="Practical-7.css">
+    <title>Practical-7</title>
+</head>
+<body>
+
+<!--(css) == is a style sheet language used to describe the presentation and layout of a document written in a markup language, such as HTML or XML. It’s a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+KEY FEATURES;
+
+Separation of Structure and Presentation: CSS allows you to separate the structure (HTML) from the presentation (CSS), making it easier to maintain and update your website’s design.
+Cascading: CSS rules are applied in a cascading manner, meaning that styles defined later in the code can override earlier definitions.
+Selectors: CSS uses selectors to target specific HTML elements, such as h1, p, or .class, and apply styles to them.
+Properties and Values: CSS properties (e.g., color, font-size, margin) are paired with values (e.g., red, 18px, 10px) to define the appearance of elements.
+Media Types: CSS allows you to define styles for different media types, such as screen, print, or speech.
+
+
+COMMON USES;
+
+Visual Styling: CSS is used to control typography, colors, spacing, and layout of web pages.
+Responsive Design: CSS is used to create responsive designs that adapt to different screen sizes and devices.
+Accessibility: CSS is used to improve website accessibility by providing alternative styles for users with disabilities.
+
+ADVANTAGES: 
+
+Reusability: CSS styles can be reused across multiple HTML pages.
+Maintainability: CSS separates presentation from structure, making it easier to update and maintain website designs.
+Flexibility: CSS allows for a wide range of styling options and can be used to create complex layouts and designs.
+In summary, CSS is a powerful styling language that enables you to control the visual appearance and layout of web pages, while separating presentation from structure. Its flexibility, reusability, and maintainability make it an essential tool for web development.-->    
+
+ <!--Different type of CSS-->  
+
+  <!--Inline Styles in HTML
+When you use inline styles, you add them directly to the HTML tags with the style attribute.
+
+For example, in our HTML code, we can assign a color to any of the paragraphs by writing the CSS right inside the opening tag.-->
+
+<p style="color: blue; font-size: 18px; font-weight: bold;">This paragraph has an inline stylesheet.</p>
+
+<br>
+<hr>
+
+  <!--Internal Styles in HTML
+When you use internal styling, you embed the styles right inside the HTML file within the style tag. You usually place them in the head, but it works anywhere, even outside of the opening and closing HTML tags (but don't do that as it's a bad practice).-->
+
+<p class="paragraph-2">This paragraph has an internal stylesheet.</p>
+
+<br>
+<hr>
+
+  <!--This is considered the best way to style your HTML code. External stylesheets are totally separate from the HTML and you place them in a CSS file (with the .css extension).
+
+  To use external stylesheets in your HTML, you link them within the head with the link tag.-->
+
+  <p class="paragraph-2">This paragraph has an external stylesheet.</p>
+</body>
+</html>
+
+
+
+<!--internal style sheet-->
+<style>
+ .paragraph-1{
+   color: blue;
+   font-size: 18px; 
+   font-weight: bold;
+  }
+</style>
